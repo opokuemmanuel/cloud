@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Announcement extends Model
+{
+    protected $fillable = ['Title','Message','club','clubname'];
+
+    protected $table = 'announcements';
+
+
+}
